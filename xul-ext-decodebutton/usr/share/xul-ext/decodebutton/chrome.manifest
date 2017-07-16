@@ -1,0 +1,9 @@
+content decodebtn chrome/content/
+style chrome://global/content/customizeToolbar.xul chrome://decodebtn/content/decodebtn.css
+
+locale decodebtn de-AT chrome/locale/de-AT/
+locale decodebtn en-US chrome/locale/en-US/
+locale decodebtn bg-BG chrome/locale/bg-BG/
+
+# Firefox
+overlay chrome://browser/content/browser.xul chrome://decodebtn/content/decodebtn.xul

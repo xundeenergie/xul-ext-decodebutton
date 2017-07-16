@@ -1,0 +1,1 @@
+*Decodebuttons for Firefox

@@ -1,0 +1,11 @@
+Decode buttons for Firefox/Iceweasel for Debian
+-----------------------------------------------
+
+This extension provides a new buttons for Firefox/Iceweasel, but it does
+not place them by default. If you want to use them, you need to personalize
+your toolbar to add them where you want.
+
+This extension is derived from debianbuttons for Firefox/Iceweasel from
+ -- Tanguy Ortolo <tanguy+debian@ortolo.eu>  Mon, 16 Jan 2012 19:35:25 +0100
+
+ -- Jakobus Schürz <jakob@xundeenergie.at> Mon Jul 17 00:06:57 CEST 2017

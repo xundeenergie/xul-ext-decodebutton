@@ -1,0 +1,12 @@
+Package: xul-ext-decodebutton
+Version: 0.1.11
+Section: internet
+Priority: extra
+Architecture: all
+Maintainer: Jakobus Schürz <jakob@xundeenergie.at>
+Homepage: http://github.com/xundeenergie/xul-ext-decodebutton
+Depends: iceweasel | firefox | firefox-esr
+Enhances: firefox, firefox-esr, iceweasel
+Provides: decodebutton, firefox-decodebutton, firefox-esr-decodebutton, iceweasel-decodebutton
+Description: Provides a button to open decoded uris from clipboard 
+ Mark a encoded uri, and click to this button. It will open the decoded uri in new tab.
