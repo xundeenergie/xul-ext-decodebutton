@@ -63,11 +63,34 @@ DecodeBtn = {
         }
     },
 
+    lookup_search: function(in_new) {
+        var keyword = DecodeBtn.trim_keyword(DecodeBtn.getClipboardText());
+        var uri="";
+
+        if (keyword) uri = "https://www.google.at/search?q="+keyword;
+
+        if (in_new) {
+            var b = getBrowser();
+            var new_tab = b.addTab(uri);
+            b.selectedTab = new_tab;
+        }
+        else {
+            loadURI(uri);
+        }
+    },
+
     decodeButton: function (e) {
         if ( e.button == 0 )
             DecodeBtn.lookup_decode(false)
         else if ( e.button == 1 )
             DecodeBtn.lookup_decode(true);
+    },
+
+    searchButton: function (e) {
+        if ( e.button == 0 )
+            DecodeBtn.lookup_search(false)
+        else if ( e.button == 1 )
+            DecodeBtn.lookup_search(true);
     }
 }
 

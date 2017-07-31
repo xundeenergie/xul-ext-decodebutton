@@ -1,3 +1,7 @@
+#decodebtn-search,
+#wrapper-decodebtn-search
+{list-style-image: url("chrome://decodebtn/content/decodebtn-search.png");}
+
 #decodebtn-decode,
 #wrapper-decodebtn-decode
 {list-style-image: url("chrome://decodebtn/content/decodebtn-decode.png");}

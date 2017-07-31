@@ -13,10 +13,18 @@
 <!-- Firefox -->
 <toolbarpalette id="BrowserToolbarPalette">
   <toolbarbutton id="decodebtn-decode"/>
+  <toolbarbutton id="decodebtn-search"/>
   </toolbarpalette>
 
 
 <!-- button details -->
+<toolbarbutton id="decodebtn-search"
+  label="&search.label;"
+  tooltiptext="&search.tooltiptext;"
+  onclick="DecodeBtn.searchButton(event)"
+  class="toolbarbutton-1 chromeclass-toolbar-additional decodebtn-search decodebtn-button"
+  />
+
 <toolbarbutton id="decodebtn-decode"
   label="&decode.label;"
   tooltiptext="&decode.tooltiptext;"

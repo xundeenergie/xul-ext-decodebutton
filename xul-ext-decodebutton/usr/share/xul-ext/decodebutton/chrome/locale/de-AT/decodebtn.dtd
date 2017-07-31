@@ -1,2 +1,4 @@
+<!ENTITY search.label "Suche mit Google">
+<!ENTITY search.tooltiptext "Suche Text aus Zwischenablage mit Google">
 <!ENTITY decode.label "decodiere URI">
 <!ENTITY decode.tooltiptext "Öffne decodierte URI in Browser">
